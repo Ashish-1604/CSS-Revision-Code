@@ -1,0 +1,141 @@
+.logo img {
+
+    width: 135px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI';
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.right ul li {
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 23px;
+    margin: 70px;
+    font-family: sans-serif;
+}
+
+.first span {
+    font-size: 33px;
+}
+
+section span img {
+    width: auto;
+    margin: 0px 23px;
+    cursor: pointer;
+}
+
+.first p {
+    font-size: 23px;
+    width: 57vw;
+    text-align: center;
+}
+
+.first div button{
+    background-color: #00b6d1;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 12px 20px;
+    border: 0px;
+    font-weight: 700;
+}
+
+
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download{
+    padding-bottom: 32px;
+    position: relative;
+    right: 206px;
+}
+
+.download img{
+    position: relative;
+    top: 26px;
+}
+
+.download-heading{
+    font-size: 28px;
+    font-family: 'Segoe UI';
+}
+
+.download-small{
+    font-size: 16px;
+}
+
+.grid .item button {
+    font-size: 13px;
+    font-weight: 700;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.blue{
+    background-color: #00b6d1;
+}
+.green{
+    background-color: #5cb85c;
+}
+
+
+.item{
+    padding: 23px;
+    background-color: rgb(246, 246, 246);
+    border-radius: 12px;
+}
+
+.item-lang{
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI';
+}
+
+.small-lang{
+    text-align: center;
+    font-size: small;
+    font-weight: 0;
+    padding-bottom: 25px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 23px;
+}
+
+.image-UE{
+    margin-right: 12px;
+    /* position: relative;
+    top: 22px; */
+    width: 70px;
+}
