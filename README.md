@@ -27,8 +27,7 @@ This repository contains all my **CSS revision code**, including exercises, exam
 
     ```bashe
     open index.html
-
-    or simply drag and drop an HTML file into your browser.
+or simply drag and drop an HTML file into your browser.
 
 ## Purpose
 This repository is a collection of CSS revision materials for:
